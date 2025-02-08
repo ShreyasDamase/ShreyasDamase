@@ -84,5 +84,5 @@
 [![LeetCode Profile](https://visitcount.itsvg.in/api?id=shreyas_damase&icon=0&color=0)](https://leetcode.com/u/shreyas_damase/)
 
 ---
+[![LeetCode Profile](https://avatars.githubusercontent.com/u/113159691?v=4&size=64)](https://leetcode.com/u/shreyas_damase/)
 
-[![LeetCode Profile](https://leetcode-stats-six.vercel.app/api?username=shreyas_damase&theme=dark)](https://leetcode.com/u/shreyas_damase/)
