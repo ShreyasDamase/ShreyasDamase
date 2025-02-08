@@ -85,7 +85,7 @@
 
 ---
 <a href="https://leetcode.com/u/shreyas_damase/" target="_blank">
-  <img src="https://avatars.githubusercontent.com/u/113159691?v=4&size=40" alt="Shreyas Jhansi" style="border-radius: 50%; vertical-align: middle; margin-right: 5px;" width="20"/>
+  <img src="https://avatars.githubusercontent.com/u/113159691?v=4&size=40" alt="Shreyas Damase" style="border-radius: 17; vertical-align: middle; margin-right: 5px;" width="20"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="15" style="vertical-align: middle;"/>
   <strong>shreyas_damase</strong>
 </a>
