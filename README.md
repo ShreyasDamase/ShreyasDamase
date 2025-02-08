@@ -77,10 +77,10 @@
 |---|---|---|---|---|
 | ![](https://leetcard.jacoblin.cool/shreyas_damase?theme=dark&font=Karma&ext=heatmap) | ![Easy](https://img.shields.io/badge/Easy-42-green) | ![Medium](https://img.shields.io/badge/Medium-31-orange) | ![Hard](https://img.shields.io/badge/Hard-3-red) | ![Rank](https://img.shields.io/badge/Rank-1348370-blue) |
 
-📌 **LeetCode Profile:**  
+ 📌 **LeetCode Profile:**  
 <a href="https://leetcode.com/u/shreyas_damase/" target="_blank">
-  <div style="vertical-align: middle;"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/LeetCode_logo_white_no_text.svg" alt="LeetCode" width="25" style="vertical-align: middle; margin-right: 8px;"/>
-<span style="font-size: 18px; font-weight: bold;">shreyas_damase</span></div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/LeetCode_logo_white_no_text.svg" alt="LeetCode" width="20" style="vertical-align: middle; margin-right: 5px;"/>
+  <strong>shreyas_damase</strong>
 </a>
 
  
