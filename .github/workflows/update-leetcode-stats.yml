@@ -1,0 +1,38 @@
+name: Update LeetCode Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight (UTC)
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch LeetCode Stats
+        run: |
+          USERNAME="shreyas_damase"
+          API_URL="https://leetcode-api-faisalshohag.vercel.app/${USERNAME}"
+          RESPONSE=$(curl -s $API_URL)
+
+          TOTAL_SOLVED=$(echo $RESPONSE | jq -r '.totalSolved')
+          EASY_SOLVED=$(echo $RESPONSE | jq -r '.easySolved')
+          MEDIUM_SOLVED=$(echo $RESPONSE | jq -r '.mediumSolved')
+          HARD_SOLVED=$(echo $RESPONSE | jq -r '.hardSolved')
+          RANKING=$(echo $RESPONSE | jq -r '.ranking')
+
+          echo "Updating README.md..."
+          sed -i "/🏆 Total Solved/c\| 🏆 Total Solved | 💡 Easy | ⚡ Medium | 🔥 Hard | 🏅 Rank |" README.md
+          sed -i "/|---|---|---|---|---|/c\|---|---|---|---|---|" README.md
+          sed -i "/\[Total\]/c\| ![Total](https://img.shields.io/badge/Solved-${TOTAL_SOLVED}-blue) | ![Easy](https://img.shields.io/badge/Easy-${EASY_SOLVED}-green) | ![Medium](https://img.shields.io/badge/Medium-${MEDIUM_SOLVED}-orange) | ![Hard](https://img.shields.io/badge/Hard-${HARD_SOLVED}-red) | ![Rank](https://img.shields.io/badge/Rank-${RANKING}-purple) |" README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Updated LeetCode stats dynamically" || echo "No changes to commit"
+          git push
