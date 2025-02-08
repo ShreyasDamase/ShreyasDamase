@@ -67,9 +67,10 @@
 
 | 🏆 Total Solved | 💡 Easy | ⚡ Medium | 🔥 Hard | 🏅 Rank |
 |---|---|---|---|---|
-| ![](https://leetcard.jacoblin.cool/ShreyasDamase?theme=dark&font=Karma&ext=heatmap) | ![Easy](https://img.shields.io/badge/Easy-42-green) | ![Medium](https://img.shields.io/badge/Medium-31-orange) | ![Hard](https://img.shields.io/badge/Hard-3-red) | ![Rank](https://img.shields.io/badge/Rank-1348370-blue) |
+| ![Total](https://img.shields.io/badge/Solved-{totalSolved}-blue) | ![Easy](https://img.shields.io/badge/Easy-{easySolved}-green) | ![Medium](https://img.shields.io/badge/Medium-{mediumSolved}-orange) | ![Hard](https://img.shields.io/badge/Hard-{hardSolved}-red) | ![Rank](https://img.shields.io/badge/Rank-{ranking}-purple) |
 
 📌 **LeetCode Profile:** [ShreyasDamase](https://leetcode.com/ShreyasDamase)  
+  
 
 ---
 
