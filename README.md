@@ -78,21 +78,11 @@
 | ![](https://leetcard.jacoblin.cool/shreyas_damase?theme=dark&font=Karma&ext=heatmap) | ![Easy](https://img.shields.io/badge/Easy-42-green) | ![Medium](https://img.shields.io/badge/Medium-31-orange) | ![Hard](https://img.shields.io/badge/Hard-3-red) | ![Rank](https://img.shields.io/badge/Rank-1348370-blue) |
 
 📌 **LeetCode Profile:** [shreyas_damase](https://leetcode.com/shreyas_damase)  
-
----
-
-[![LeetCode Profile](https://visitcount.itsvg.in/api?id=shreyas_damase&icon=0&color=0)](https://leetcode.com/u/shreyas_damase/)
-
+ 
 ---
 <a href="https://leetcode.com/u/shreyas_damase/" target="_blank" style="color: orange; text-decoration: none; font-weight: bold;">
   <img src="https://avatars.githubusercontent.com/u/113159691?v=4&size=40" alt="Shreyas Damase" style="border-radius: 50%; vertical-align: middle; margin-right: 5px;" width="20"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="15" style="vertical-align: middle;"/>
   <span style="color: orange;">shreyas_damase</span>
 </a>
----
-<a href="https://leetcode.com/u/shreyas_damase/" target="_blank">
-  <img src="https://avatars.githubusercontent.com/u/113159691?v=4&size=40" alt="Shreyas Damase" style="border-radius: 50%; vertical-align: middle; margin-right: 5px;" width="20"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="15" style="vertical-align: middle;"/>
-  🔸 <strong>shreyas_damase</strong>
-</a>
-
+ 
