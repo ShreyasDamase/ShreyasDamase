@@ -69,5 +69,5 @@
 |---|---|---|---|---|
 | ![Total](https://img.shields.io/badge/Solved-0-blue) | ![Easy](https://img.shields.io/badge/Easy-0-green) | ![Medium](https://img.shields.io/badge/Medium-0-orange) | ![Hard](https://img.shields.io/badge/Hard-0-red) | ![Rank](https://img.shields.io/badge/Rank-0-purple) |
 
-📌 **LeetCode Profile:** [ShreyasDamase](https://leetcode.com/ShreyasDamase)  
+📌 **LeetCode Profile:** [shreyas_damase](https://leetcode.com/shreyas_damase)  
 
