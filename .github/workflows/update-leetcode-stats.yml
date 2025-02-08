@@ -9,10 +9,13 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: 📥 Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch LeetCode Stats
+      - name: 📥 Install jq (JSON Parser)
+        run: sudo apt-get install jq
+
+      - name: 🔄 Fetch LeetCode Stats
         run: |
           USERNAME="shreyas_damase"
           API_URL="https://leetcode-api-faisalshohag.vercel.app/${USERNAME}"
@@ -24,15 +27,22 @@ jobs:
           HARD_SOLVED=$(echo $RESPONSE | jq -r '.hardSolved')
           RANKING=$(echo $RESPONSE | jq -r '.ranking')
 
-          echo "Updating README.md..."
-          sed -i "/🏆 Total Solved/c\| 🏆 Total Solved | 💡 Easy | ⚡ Medium | 🔥 Hard | 🏅 Rank |" README.md
-          sed -i "/|---|---|---|---|---|/c\|---|---|---|---|---|" README.md
-          sed -i "/\[Total\]/c\| ![Total](https://img.shields.io/badge/Solved-${TOTAL_SOLVED}-blue) | ![Easy](https://img.shields.io/badge/Easy-${EASY_SOLVED}-green) | ![Medium](https://img.shields.io/badge/Medium-${MEDIUM_SOLVED}-orange) | ![Hard](https://img.shields.io/badge/Hard-${HARD_SOLVED}-red) | ![Rank](https://img.shields.io/badge/Rank-${RANKING}-purple) |" README.md
+          echo "✅ LeetCode Stats Fetched: Solved=$TOTAL_SOLVED, Easy=$EASY_SOLVED, Medium=$MEDIUM_SOLVED, Hard=$HARD_SOLVED, Rank=$RANKING"
 
-      - name: Commit and Push Changes
+          # 📌 Update README.md using `awk`
+          awk -v total="$TOTAL_SOLVED" -v easy="$EASY_SOLVED" -v medium="$MEDIUM_SOLVED" -v hard="$HARD_SOLVED" -v rank="$RANKING" '
+            /🏆 Total Solved/ {print "| 🏆 Total Solved | 💡 Easy | ⚡ Medium | 🔥 Hard | 🏅 Rank |"; next}
+            /|---|---|---|---|---|/ {print "|---|---|---|---|---|"; next}
+            /\[Total\]/ {print "| ![Total](https://img.shields.io/badge/Solved-" total "-blue) | ![Easy](https://img.shields.io/badge/Easy-" easy "-green) | ![Medium](https://img.shields.io/badge/Medium-" medium "-orange) | ![Hard](https://img.shields.io/badge/Hard-" hard "-red) | ![Rank](https://img.shields.io/badge/Rank-" rank "-purple) |"; next}
+            {print}
+          ' README.md > README_TEMP.md && mv README_TEMP.md README.md
+
+      - name: 🔄 Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Updated LeetCode stats dynamically" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
