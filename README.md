@@ -63,15 +63,25 @@
 [![](https://visitcount.itsvg.in/api?id=ShreyasDamase&icon=0&color=0)](https://visitcount.itsvg.in)  
 
 ---
-## 🚀 LeetCode Stats  
+import requests
 
+USERNAME = "shreyas_damase"
+API_URL = f"https://leetcode-api-faisalshohag.vercel.app/{USERNAME}"
+
+response = requests.get(API_URL).json()
+
+totalSolved = response["totalSolved"]
+easySolved = response["easySolved"]
+mediumSolved = response["mediumSolved"]
+hardSolved = response["hardSolved"]
+ranking = response["ranking"]
+
+# Generate Markdown Output
+leetcode_stats = f"""
 | 🏆 Total Solved | 💡 Easy | ⚡ Medium | 🔥 Hard | 🏅 Rank |
 |---|---|---|---|---|
 | ![Total](https://img.shields.io/badge/Solved-{totalSolved}-blue) | ![Easy](https://img.shields.io/badge/Easy-{easySolved}-green) | ![Medium](https://img.shields.io/badge/Medium-{mediumSolved}-orange) | ![Hard](https://img.shields.io/badge/Hard-{hardSolved}-red) | ![Rank](https://img.shields.io/badge/Rank-{ranking}-purple) |
 
 📌 **LeetCode Profile:** [ShreyasDamase](https://leetcode.com/ShreyasDamase)  
-  
-
----
-
-[![](https://visitcount.itsvg.in/api?id=ShreyasDamase&icon=0&color=0)](https://visitcount.itsvg.in)  
+"""
+print(leetcode_stats)
