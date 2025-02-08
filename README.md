@@ -1,13 +1,17 @@
- # 💫 About Me  
-🚀 **React Native Developer** | **Frontend & Mobile App Specialist**  
-🎯 **Tech Stack:** JavaScript | TypeScript | React Native | React.js | Redux  
-💡 **Passionate About:** UI/UX Design | Performance Optimization | Scalable Code  
-🌱 **Currently Learning:** Node.js | Express.js | Full-Stack Development  
-🤝 **Collaborative & Growth-Oriented:** Always exploring new technologies  
+Here's your updated, professional, and well-aligned content:  
 
 ---
 
-## 🌐 Socials  
+# 💫 About Me  
+🚀 **React Native Developer** | **Cross-Platform App Specialist** | **Full-Stack Enthusiast**  
+🎯 Expertise: **JavaScript**, **TypeScript**, **React Native**, **React.js**  
+💡 Passionate about building **intuitive, scalable, and high-performance applications**  
+🤝 I thrive in **collaborative environments** and love exploring **new technologies**  
+🌱 Currently learning **Node.js** & **Express.js** to expand into full-stack development  
+
+---
+
+# 🌐 Socials  
 📌 **Connect with me on:**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyasdamase)  
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shreyas_damase)  
@@ -45,17 +49,22 @@
 ### **Tools & DevOps**  
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)  
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)  
-📌 **Key Concepts:** Mobile App Development | REST APIs | OOP | Data Structures & Algorithms  
 
 ---
 
 # 📊 GitHub Stats  
-| 📈 Stats | 🔥 Streak | 🏆 Top Languages |  
-|---|---|---|  
-| ![](https://github-readme-stats.vercel.app/api?username=ShreyasDamase&theme=dark&hide_border=false&include_all_commits=false&count_private=false) | ![](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasDamase&theme=dark&hide_border=false) | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasDamase&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) |  
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShreyasDamase&theme=dark&hide_border=false&include_all_commits=false&count_private=false) | ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasDamase&theme=dark&hide_border=false) |  
+|---|---|  
+| ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasDamase&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) |  
 
 ---
 
 [![](https://visitcount.itsvg.in/api?id=ShreyasDamase&icon=0&color=0)](https://visitcount.itsvg.in)  
 
 ---
+
+### 💡 **Pro Tip:** Add personal projects or open-source contributions in a dedicated section to showcase your experience further!  
+
+---
+
+This version is now **professional, structured, and visually aligned** with proper row-wise formatting. Let me know if you'd like further refinements! 🚀
