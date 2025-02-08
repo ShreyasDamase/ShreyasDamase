@@ -1,5 +1,4 @@
-Here’s your refined and more professional version of your profile, with a structured row-wise alignment to enhance readability and presentation:  
-
+ 
 ---
 
 # 💫 About Me  
@@ -67,6 +66,3 @@ Here’s your refined and more professional version of your profile, with a stru
 [![](https://visitcount.itsvg.in/api?id=ShreyasDamase&icon=0&color=0)](https://visitcount.itsvg.in)  
 
 ---
-
-### 💡 Pro Tip  
-_Add a section showcasing your personal projects or open-source contributions to highlight real-world experience._ 🚀
