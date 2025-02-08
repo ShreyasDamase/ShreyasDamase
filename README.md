@@ -79,8 +79,8 @@
 
 📌 **LeetCode Profile:**  
 <a href="https://leetcode.com/u/shreyas_damase/" target="_blank">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/LeetCode_logo_white_no_text.svg" alt="LeetCode" width="25" style="vertical-align: middle; margin-right: 8px;"/>
-<span style="font-size: 18px; font-weight: bold;">shreyas_damase</span>
+  <div style="vertical-align: middle;"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/LeetCode_logo_white_no_text.svg" alt="LeetCode" width="25" style="vertical-align: middle; margin-right: 8px;"/>
+<span style="font-size: 18px; font-weight: bold;">shreyas_damase</span></div>
 </a>
 
  
