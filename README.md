@@ -84,5 +84,9 @@
 [![LeetCode Profile](https://visitcount.itsvg.in/api?id=shreyas_damase&icon=0&color=0)](https://leetcode.com/u/shreyas_damase/)
 
 ---
-[![LeetCode Profile](https://avatars.githubusercontent.com/u/113159691?v=4&size=64)](https://leetcode.com/u/shreyas_damase/)
+<a href="https://leetcode.com/u/shreyas_damase/" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/113159691?v=4&size=40" alt="Shreyas Jhansi" style="border-radius: 50%; vertical-align: middle; margin-right: 5px;" width="30"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="60" style="vertical-align: middle;"/>
+  <strong>shreyas_damase</strong>
+</a>
 
