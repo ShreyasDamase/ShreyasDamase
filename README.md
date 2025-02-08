@@ -64,10 +64,21 @@
 
 ---
 # 📊 GitHub Stats  
+
 | 📈 Stats | 🔥 Streak | 🏆 Top Languages |  
 |---|---|---|  
 | ![](https://github-readme-stats.vercel.app/api?username=ShreyasDamase&theme=dark&hide_border=false&include_all_commits=false&count_private=false) | ![](https://github-readme-streak-stats.herokuapp.com/?user=ShreyasDamase&theme=dark&hide_border=false) | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasDamase&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) |  
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=ShreyasDamase&icon=0&color=0)](https://visitcount.itsvg.in)  
+## 🚀 LeetCode Stats  
+
+| 🏆 Total Solved | 💡 Easy | ⚡ Medium | 🔥 Hard | 🏅 Rank |
+|---|---|---|---|---|
+| ![](https://leetcard.jacoblin.cool/shreyas_damase?theme=dark&font=Karma&ext=heatmap) | ![Easy](https://img.shields.io/badge/Easy-42-green) | ![Medium](https://img.shields.io/badge/Medium-31-orange) | ![Hard](https://img.shields.io/badge/Hard-3-red) | ![Rank](https://img.shields.io/badge/Rank-1348370-blue) |
+
+📌 **LeetCode Profile:** [shreyas_damase](https://leetcode.com/ShreyasDamase)  
+
+---
+
+[![](https://visitcount.itsvg.in/api?id=shreyas_damase&icon=0&color=0)](https://visitcount.itsvg.in)  
