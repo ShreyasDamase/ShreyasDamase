@@ -77,7 +77,7 @@
 |---|---|---|---|---|
 | ![](https://leetcard.jacoblin.cool/shreyas_damase?theme=dark&font=Karma&ext=heatmap) | ![Easy](https://img.shields.io/badge/Easy-42-green) | ![Medium](https://img.shields.io/badge/Medium-31-orange) | ![Hard](https://img.shields.io/badge/Hard-3-red) | ![Rank](https://img.shields.io/badge/Rank-1348370-blue) |
 
-📌 **LeetCode Profile:** [shreyas_damase](https://leetcode.com/ShreyasDamase)  
+📌 **LeetCode Profile:** [shreyas_damase](https://leetcode.com/shreyas_damase)  
 
 ---
 
