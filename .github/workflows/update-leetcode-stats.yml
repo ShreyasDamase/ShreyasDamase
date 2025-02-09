@@ -3,7 +3,7 @@ name: Update LeetCode Stats
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -16,20 +16,19 @@ jobs:
         run: |
           RESPONSE=$(curl -s "https://leetcode-api-faisalshohag.vercel.app/shreyas_damase")
 
-          # Extract correct count values
-          EASY=$(echo $RESPONSE | jq -r '.totalSubmissions | map(select(.difficulty == "Easy")) | .[0].count')
-          MEDIUM=$(echo $RESPONSE | jq -r '.totalSubmissions | map(select(.difficulty == "Medium")) | .[0].count')
-          HARD=$(echo $RESPONSE | jq -r '.totalSubmissions | map(select(.difficulty == "Hard")) | .[0].count')
+          # Extract correct values
+          EASY=$(echo $RESPONSE | jq -r '.matchedUserStats.acSubmissionNum | map(select(.difficulty == "Easy")) | .[0].count')
+          MEDIUM=$(echo $RESPONSE | jq -r '.matchedUserStats.acSubmissionNum | map(select(.difficulty == "Medium")) | .[0].count')
+          HARD=$(echo $RESPONSE | jq -r '.matchedUserStats.acSubmissionNum | map(select(.difficulty == "Hard")) | .[0].count')
           RANK=$(echo $RESPONSE | jq -r '.ranking')
 
           # Debugging output
-          echo "Extracted Values:"
           echo "Easy: $EASY"
           echo "Medium: $MEDIUM"
           echo "Hard: $HARD"
           echo "Rank: $RANK"
 
-          # Updating README badges correctly
+          # Updating README.md
           sed -i "s|!\[Easy\](https://img.shields.io/badge/Easy-.*-🟢)|![Easy](https://img.shields.io/badge/Easy-${EASY}-🟢)|" README.md
           sed -i "s|!\[Medium\](https://img.shields.io/badge/Medium-.*-🟠)|![Medium](https://img.shields.io/badge/Medium-${MEDIUM}-🟠)|" README.md
           sed -i "s|!\[Hard\](https://img.shields.io/badge/Hard-.*-🔴)|![Hard](https://img.shields.io/badge/Hard-${HARD}-🔴)|" README.md
