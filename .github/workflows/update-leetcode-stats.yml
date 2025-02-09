@@ -15,9 +15,11 @@ jobs:
       - name: Fetch LeetCode Stats
         run: |
           RESPONSE=$(curl -s "https://leetcode-api-faisalshohag.vercel.app/shreyas_damase")
-          EASY=$(echo $RESPONSE | jq '.easySolved')
-          MEDIUM=$(echo $RESPONSE | jq '.mediumSolved')
-          HARD=$(echo $RESPONSE | jq '.hardSolved')
+          
+          # Extract values from the totalSubmissions array
+          EASY=$(echo $RESPONSE | jq '.totalSubmissions[] | select(.difficulty == "Easy") | .count')
+          MEDIUM=$(echo $RESPONSE | jq '.totalSubmissions[] | select(.difficulty == "Medium") | .count')
+          HARD=$(echo $RESPONSE | jq '.totalSubmissions[] | select(.difficulty == "Hard") | .count')
           RANK=$(echo $RESPONSE | jq '.ranking')
 
           # Updating Badges in README.md
