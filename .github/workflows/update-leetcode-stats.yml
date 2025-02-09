@@ -1,4 +1,4 @@
- name: Update LeetCode Stats 
+name: Update LeetCode Stats 
 
 on:
   schedule:
@@ -20,10 +20,11 @@ jobs:
           HARD=$(echo $RESPONSE | jq '.hardSolved')
           RANK=$(echo $RESPONSE | jq '.ranking')
 
-          sed -i "s|💡 Easy:.*|💡 Easy: ${EASY}|" README.md
-          sed -i "s|⚡ Medium:.*|⚡ Medium: ${MEDIUM}|" README.md
-          sed -i "s|🔥 Hard:.*|🔥 Hard: ${HARD}|" README.md
-          sed -i "s|🏅 Rank:.*|🏅 Rank: ${RANK}|" README.md
+          # Updating Badges in README.md
+          sed -i "s|!\[Easy\](https://img.shields.io/badge/Easy-.*-🟢)|![Easy](https://img.shields.io/badge/Easy-${EASY}-🟢)|" README.md
+          sed -i "s|!\[Medium\](https://img.shields.io/badge/Medium-.*-🟠)|![Medium](https://img.shields.io/badge/Medium-${MEDIUM}-🟠)|" README.md
+          sed -i "s|!\[Hard\](https://img.shields.io/badge/Hard-.*-🔴)|![Hard](https://img.shields.io/badge/Hard-${HARD}-🔴)|" README.md
+          sed -i "s|!\[Rank\](https://img.shields.io/badge/Rank-.*-🔵)|![Rank](https://img.shields.io/badge/Rank-${RANK}-🔵)|" README.md
 
       - name: Commit and Push Changes
         run: |
