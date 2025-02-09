@@ -69,12 +69,13 @@
 
 | 🏆 Total Solved | 💡 Easy | ⚡ Medium | 🔥 Hard | 🏅 Rank |
 |---|---|---|---|---|
-| ![LeetCode Heatmap](https://leetcard.jacoblin.cool/shreyas_damase?theme=dark&font=Karma&ext=heatmap) | ![Easy](https://img.shields.io/badge/Easy-🟢-green) | ![Medium](https://img.shields.io/badge/Medium-🟠-orange) | ![Hard](https://img.shields.io/badge/Hard-🔴-red) | ![Rank](https://img.shields.io/badge/Rank-🔵-blue) |
+| ![LeetCode Heatmap](https://leetcard.jacoblin.cool/shreyas_damase?theme=dark&font=Karma&ext=heatmap) | ![Easy](https://img.shields.io/badge/Easy-100-🟢) | ![Medium](https://img.shields.io/badge/Medium-50-🟠) | ![Hard](https://img.shields.io/badge/Hard-10-🔴) | ![Rank](https://img.shields.io/badge/Rank-5000-🔵) |
 
 <p>
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/LeetCode_logo_white_no_text.svg" alt="LeetCode" width="20" style="vertical-align: middle; margin-right: 5px;"/>
   <strong>LeetCode Profile:</strong>
   <a href="https://leetcode.com/u/shreyas_damase/" style="text-decoration: none; font-weight: bold;">shreyas_damase</a>
 </p>
+
 
 
