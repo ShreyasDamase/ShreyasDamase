@@ -1,4 +1,4 @@
-name: Update LeetCode Stats
+name: Update LeetCode Stats 
 
 on:
   schedule:
@@ -13,17 +13,17 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Fetch LeetCode Stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          username: shreyas_damase
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Update README.md
         run: |
-          sed -i "s|Easy-.*-green|Easy-$(curl -s https://leetcode-stats-api.herokuapp.com/shreyas_damase | jq '.easy')-green|" README.md
-          sed -i "s|Medium-.*-orange|Medium-$(curl -s https://leetcode-stats-api.herokuapp.com/shreyas_damase | jq '.medium')-orange|" README.md
-          sed -i "s|Hard-.*-red|Hard-$(curl -s https://leetcode-stats-api.herokuapp.com/shreyas_damase | jq '.hard')-red|" README.md
-          sed -i "s|Rank-.*-blue|Rank-$(curl -s https://leetcode-stats-api.herokuapp.com/shreyas_damase | jq '.ranking')-blue|" README.md
+          RESPONSE=$(curl -s "https://leetcode-api-faisalshohag.vercel.app/shreyas_damase")
+          EASY=$(echo $RESPONSE | jq '.easySolved')
+          MEDIUM=$(echo $RESPONSE | jq '.mediumSolved')
+          HARD=$(echo $RESPONSE | jq '.hardSolved')
+          RANK=$(echo $RESPONSE | jq '.ranking')
+
+          sed -i "s|Easy-.*-green|Easy-${EASY}-green|" README.md
+          sed -i "s|Medium-.*-orange|Medium-${MEDIUM}-orange|" README.md
+          sed -i "s|Hard-.*-red|Hard-${HARD}-red|" README.md
+          sed -i "s|Rank-.*-blue|Rank-${RANK}-blue|" README.md
 
       - name: Commit and Push Changes
         run: |
