@@ -7,7 +7,8 @@
 +  - **React.js** (deepening web-app skills)  
 +  - **Node.js** & **Express.js** (backend APIs)  
 +  - **MEAN Stack** (MongoDB | Express.js | Angular | Node.js)  
- 🤝 **Collaborative & Growth-Oriented:** Always exploring new technologies  
+
+🤝 **Collaborative & Growth-Oriented:** Always exploring new technologies  
 
 ---
 
