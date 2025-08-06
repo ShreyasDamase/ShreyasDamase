@@ -2,11 +2,11 @@
 🚀 **React Native Developer** | **Frontend & Mobile App Specialist**  
 🎯 **Tech Stack:** JavaScript | TypeScript | React Native | React.js | Redux  
 💡 **Passionate About:** UI/UX Design | Performance Optimization | Scalable Code  
-+🌱 **Currently Learning:**  
-+  - **Kotlin** & **Jetpack Compose**  
-+  - **React.js** (deepening web-app skills)  
-+  - **Node.js** & **Express.js** (backend APIs)  
-+  - **MEAN Stack** (MongoDB | Express.js | Angular | Node.js)  
+🌱 **Currently Learning:**  
+  - **Kotlin** & **Jetpack Compose**  
+  - **React.js** (deepening web-app skills)  
+  - **Node.js** & **Express.js** (backend APIs)  
+  - **MEAN Stack** (MongoDB | Express.js | Angular | Node.js)  
 
 🤝 **Collaborative & Growth-Oriented:** Always exploring new technologies  
 
