@@ -2,8 +2,12 @@
 🚀 **React Native Developer** | **Frontend & Mobile App Specialist**  
 🎯 **Tech Stack:** JavaScript | TypeScript | React Native | React.js | Redux  
 💡 **Passionate About:** UI/UX Design | Performance Optimization | Scalable Code  
-🌱 **Currently Learning:** Node.js | Express.js | Full-Stack Development  
-🤝 **Collaborative & Growth-Oriented:** Always exploring new technologies  
++🌱 **Currently Learning:**  
++  - **Kotlin** & **Jetpack Compose**  
++  - **React.js** (deepening web-app skills)  
++  - **Node.js** & **Express.js** (backend APIs)  
++  - **MEAN Stack** (MongoDB | Express.js | Angular | Node.js)  
+ 🤝 **Collaborative & Growth-Oriented:** Always exploring new technologies  
 
 ---
 
@@ -27,6 +31,7 @@
 ### **Programming Languages**  
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
+![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white)  
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -37,6 +42,8 @@
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) 
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-%23FF6F00.svg?style=for-the-badge&logo=jetpack-compose&logoColor=white)  
+
 
 ### **Backend & Databases**  
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
